@@ -1,0 +1,20 @@
+.button-add {
+  background-color: #001f96;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+
+.button-add:hover {
+  background-color: #3759e2;
+}
+
+.right {
+  text-align: right;
+}

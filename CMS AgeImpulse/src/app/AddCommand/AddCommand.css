@@ -1,0 +1,53 @@
+.container-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-add {
+  width: 500px; /* Augmentation de la largeur de la boîte */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 100%;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: calc(100% - 20px); /* Réduire la largeur pour compenser la marge intérieure */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-add {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #001f96;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Ajout de transition pour l'effet hover */
+}
+
+.button-add:hover {
+  background-color: #000e63;
+}
