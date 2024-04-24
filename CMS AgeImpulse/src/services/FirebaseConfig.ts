@@ -8,7 +8,7 @@ import { activate } from 'firebase/remote-config'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyBS3J40ILCc8tjWa4rJFqEdz_24KwxKi1c',
+  apiKey: '*******************************',
   authDomain: 'codecamp-ageimpulse.firebaseapp.com',
   databaseURL: 'https://codecamp-ageimpulse-default-rtdb.europe-west1.firebasedatabase.app',
   projectId: 'codecamp-ageimpulse',
